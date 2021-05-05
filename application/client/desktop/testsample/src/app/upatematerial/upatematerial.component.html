@@ -1,0 +1,32 @@
+<h2 class="screen-align">UpateMaterial</h2>
+<div id="template-i9la" class="row">
+    <div id="template-i5ek" class="cell">
+        <label id="template-iime" class="label">Name</label>
+        <input id="template-irbv8" [(ngModel)]="ticket.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-ikug" class="cell">
+        <label id="template-i9qaa" class="label">Description</label>
+        <input id="template-ixkeh" [(ngModel)]="ticket.description"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ihuu" class="cell">
+        <label id="template-i7q7r" class="label">Groups</label>
+        <input id="template-ikoas" [(ngModel)]="ticket.groups" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+</div>
+<div id="template-izfq" class="row">
+    <div id="template-iumk" class="cell">
+        <label id="template-i1ywi" class="label">Severity</label>
+        <input id="template-ii93d" [(ngModel)]="ticket.severity"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+        <button id="template-i0q8d" (click)="GpUpdate()" class="button btn btn-primary">Update</button>
+    </div>
+    <div id="template-imxl" class="cell">
+        <label id="template-i65zf" class="label">Types</label>
+        <input id="template-iyrvu" [(ngModel)]="ticket.types" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i98g" class="cell"></div>
+</div>

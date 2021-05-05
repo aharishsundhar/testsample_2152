@@ -1,0 +1,32 @@
+<h2 class="screen-align">AddMaterial</h2>
+<div id="template-ipkh" class="row">
+    <div id="template-i1uh" class="cell">
+        <label id="template-iayk" class="label">Name</label>
+        <input id="template-i5fa5" [(ngModel)]="ticket.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i8tv" class="cell">
+        <label id="template-iewzf" class="label">Description</label>
+        <input id="template-igycf" [(ngModel)]="ticket.description"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ijix" class="cell">
+        <label id="template-i0w8v" class="label">Groups</label>
+        <input id="template-isl8g" [(ngModel)]="ticket.groups" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+</div>
+<div id="template-itid" class="row">
+    <div id="template-i4aq" class="cell">
+        <label id="template-i0c3y" class="label">Types</label>
+        <input id="template-ik1jk" [(ngModel)]="ticket.types" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+        <button id="template-ikwd2" (click)="GpCreate()" class="button btn btn-primary">Create</button>
+    </div>
+    <div id="template-iniw" class="cell">
+        <label id="template-icsyn" class="label">Severity</label>
+        <input id="template-i9ruc" [(ngModel)]="ticket.severity"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-id31" class="cell"></div>
+</div>
